@@ -133,10 +133,13 @@ print(accuracy_score(ypred2, ytestlr))
 - gridsearch
 - vysledok je best estimator a vypise best skore
 '''
-def cv_optimize(clf, parameters, Xtrain, ytrain, n_folds=5):
-    gs = GridSearchCV(clf, param_grid=parameters, cv=n_folds)
-    gs.fit(Xtrain, ytrain)
-    print ("BEST PARAMS", gs.best_params_)
+def cv_optimize(clf, parameters, X, y, n_jobs=1, n_folds=5, score_func=None):
+    if score_func:
+        gs = GridSearchCV(clf, param_grid=parameters, cv=n_folds, n_jobs=n_jobs, scoring=score_func)
+    else:
+        gs = GridSearchCV(clf, param_grid=parameters, n_jobs=n_jobs, cv=n_folds)
+    gs.fit(X, y)
+    print ("BEST", gs.best_params_, gs.best_score_, gs.grid_scores_)
     best = gs.best_estimator_
     return best
 
