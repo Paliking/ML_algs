@@ -58,7 +58,7 @@ def modelfit(alg, dtrain, predictors,useTrainCV=True, cv_folds=5, early_stopping
 
 
 
-# na windows je zlozitejsie naintalovat modul XGBoost. Odkladam na neskor....
+# na windowse je zlozitejsie naintalovat modul XGBoost. Odkladam na neskor....
 
 
 
