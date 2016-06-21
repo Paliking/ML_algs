@@ -1,0 +1,2 @@
+ROC
+	- nezavisla od nerovnomerneho rozdelenia pozitive/negative v datasete
