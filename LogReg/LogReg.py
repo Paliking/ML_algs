@@ -88,8 +88,15 @@ iris = datasets.load_iris()
 X = iris.data # all features
 y = iris.target
 
-#X = X[:-40,:]
-#y = y[:-40]
+##X = X[:-40,:]
+##y = y[:-40]
+
+mask = y !=0
+X = X[mask,:]
+y = y[mask]
+
+X = X[:-40,:]
+y = y[:-40]
 
 # split sety
 Xlr, Xtestlr, ylr, ytestlr = train_test_split(X, y, test_size=0.33)
@@ -190,7 +197,7 @@ df['target'] = y
 
 # funkcia na tunovanie
 bestcv, Xtrain, ytrain, Xtest, ytest = do_classify(LogisticRegression(), {"C": [0.01, 0.1, 1, 10, 100]}, df, ['a','c'], 'target')
-
+print(ytest-1)
 
 print('confusion_matrix:')
 print(confusion_matrix(ytest, bestcv.predict(Xtest), ))
@@ -200,7 +207,15 @@ if Xtrain.shape[1] == 2:
     plt.figure()
     ax=plt.gca()
     points_plot(ax, Xtrain, Xtest, ytrain, ytest, bestcv, alpha=0.5, psize=20)
+    plt.show()
     
     plt.figure()
     ax=plt.gca()
     points_plot_prob(ax, Xtrain, Xtest, ytrain, ytest, bestcv, alpha=0.5, psize=20)
+    plt.show()
+
+
+
+
+
+
