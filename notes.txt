@@ -1,2 +1,4 @@
 ROC
 	- nezavisla od nerovnomerneho rozdelenia pozitive/negative v datasetoch
+SVM
+	- normalizovane, pre rychlejsi vypocet
