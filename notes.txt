@@ -1,8 +1,18 @@
 ROC
 	- nezavisla od nerovnomerneho rozdelenia pozitive/negative v datasetoch
 SVM
-	- normalizovane, pre rychlejsi vypocet
+	- musi byt normalizovane - potom je aj rychly vypocet
 	
 	
 kombinovanie
 http://sebastianraschka.com/Articles/2014_ensemble_classifier.html
+
+SVM a ine
+https://github.com/amueller/introduction_to_ml_with_python/blob/master/05-model-evaluation-and-improvement.ipynb
+
+
+predickia casovych radov
+https://github.com/amueller/introduction_to_ml_with_python/blob/master/04-representing-data-feature-engineering.ipynb
+
+rozne zaujimave metody (super/unsuper)
+https://github.com/amueller/introduction_to_ml_with_python
