@@ -7,6 +7,9 @@ SVM
 kombinovanie
 http://sebastianraschka.com/Articles/2014_ensemble_classifier.html
 http://scikit-learn.org/stable/modules/ensemble.html#parameters (uplne dole VotingClassifier )
+https://rasbt.github.io/mlxtend/
+http://heamy.readthedocs.io/en/latest/
+https://github.com/viisar/brew
 
 SVM a ine
 https://github.com/amueller/introduction_to_ml_with_python/blob/master/05-model-evaluation-and-improvement.ipynb
