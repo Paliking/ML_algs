@@ -1,0 +1,23 @@
+I was using StackNet as a 2-level classifier in the beginning. At the moment I am experimenting and will probably end up with StackNet incorporated somehow in 1-level models and XGBoost (plus something else if time allows) as the 2-level classifier.
+
+There are easier ways to stack (but they are different in the sense that StackNet contains algorithms, which are not available in scikit-learn). Here are some references:
+
+http://heamy.readthedocs.io/en/latest/index.html
+
+https://github.com/viisar/brew
+
+http://rasbt.github.io/mlxtend
+
+https://github.com/fukatani/stacked_generalization
+
+https://github.com/dustinstansbury/stacked_generalization
+
+There are also a few great introductions to stacking, e.g.:
+
+https://mlwave.com/kaggle-ensembling-guide/ (plus references therein)
+
+https://gormanalysis.com/guide-to-model-stacking-i-e-meta-ensembling/
+
+(hands-on) http://machinelearningmastery.com/implementing-stacking-scratch-python/
+
+And we are all looking forward to reading Marios' Ph.D. thesis ;).
