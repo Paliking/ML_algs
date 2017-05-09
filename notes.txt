@@ -26,3 +26,6 @@ https://www.analyticsvidhya.com/blog/2016/04/complete-tutorial-tree-based-modeli
 
 NN
 https://github.com/rouseguy/intro2deeplearning
+
+Harvard homeworks
+http://danielfrg.com/blog/2013/11/23/harvard-ds/
