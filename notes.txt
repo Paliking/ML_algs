@@ -10,6 +10,7 @@ http://scikit-learn.org/stable/modules/ensemble.html#parameters (uplne dole Voti
 https://rasbt.github.io/mlxtend/
 http://heamy.readthedocs.io/en/latest/
 https://github.com/viisar/brew
+https://github.com/LenzDu/Kaggle-Competition-Sberbank
 
 SVM a ine
 https://github.com/amueller/introduction_to_ml_with_python/blob/master/05-model-evaluation-and-improvement.ipynb
@@ -32,3 +33,6 @@ http://danielfrg.com/blog/2013/11/23/harvard-ds/
 
 riesenie multicollinearity podla VIF
 https://www.kaggle.com/ffisegydd/sklearn-multicollinearity-class
+
+1s in public LB based on logloss score
+https://www.kaggle.com/davidthaler/how-many-1-s-are-in-the-public-lb
