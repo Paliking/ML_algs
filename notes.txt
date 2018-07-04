@@ -36,3 +36,7 @@ https://www.kaggle.com/ffisegydd/sklearn-multicollinearity-class
 
 1s in public LB based on logloss score
 https://www.kaggle.com/davidthaler/how-many-1-s-are-in-the-public-lb
+
+# Bayesian optimization for e.g. xgb
+https://github.com/fmfn/BayesianOptimization/blob/master/examples/xgboost_example.py
+info from https://www.kaggle.com/tilii7/olivier-lightgbm-parameters-by-bayesian-opt/code
